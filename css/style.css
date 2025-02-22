@@ -1,0 +1,138 @@
+/* Select body
+Set the default font family to be Vesper Libre
+Set the text color to #1a1a1a
+Set line height to 1.5
+Set margin to 0 */
+body{
+font-family: 'Vesper Libre', serif;
+color: #1a1a1a;
+line-height: 1.5;
+margin: 0;
+}
+
+/* Select header and footer
+Change background color to #000
+Set the text color to #fff
+Align all content nested within to center using text align property */
+header, footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Select the appropriate tag for image
+Set the width to be 100% */
+img {
+    width: 100%;
+}
+
+
+/* Target the logo in the header using an ID
+Set the width to 100px
+Add 8px of padding to the top */
+#logo {
+    width: 100px;
+    padding-top: 8px;
+}
+
+
+/* Select the main element
+Give some space around the content with 
+padding all around with 20px */
+main {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+/* Select h1
+Change font size to 2rem
+Set line height to 1.3
+Adjust margin on the top and bottom to 1rem */
+h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin: 1rem 0;
+}
+
+/*Target the article category 'News' using a class
+Change display property to inline-block
+Change text to be displayed as uppercase
+Set font size to be .85rem
+Add border bottom with values 2px solid #ff3530 */
+.news-category {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-bottom: 2px solid #ff3530;
+}
+
+
+/* Select figcaption, article category 'News', 
+sub-title, author, date and h2
+Change font family to Open Sans */
+figcaption, .news-category, .sub-title, .author, .date, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Select author and date
+Change font size to .85rem
+Remove margin bottom by setting it to 0 */
+.author, .date {
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+
+/* Select figure
+Change margin top and bottom to 1.25em, 
+and left and right to 0. For example margin: 1.25em 0; */
+figure {
+    margin: 1.25em 0;
+}
+
+
+/* Select the caption under the image
+Set font size to .75rem
+Adjust to use center alignment
+Change text color to use #757575
+Adjust text style to be italicized*/
+figcaption {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+
+/* Target the list of nominees
+Remove bullets with list-style property
+Remove padding on left with 0 */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/*Style links to
+Use text color #1a1a1a
+Have an underline by default
+On hover, underline disappears
+On hover, color of link changes to #ff3530 */
+a{
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ff3530;
+}
+
+/* Fix quote alignment */
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
